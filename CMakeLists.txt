@@ -38,4 +38,4 @@ endif()
 add_executable(toml_example main.cpp)
 set_target_properties(toml_example PROPERTIES CXX_STANDARD 17)
 
-target_link_libraries(toml_example yaml-cpp)
+target_link_libraries(toml_example tomlplusplus)
