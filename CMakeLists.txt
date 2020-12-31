@@ -23,7 +23,7 @@ CPMAddPackage(
   NAME tomlplusplus
   GIT_REPOSITORY https://github.com/sthagen/cpp-toml.git
   VERSION 2.3.0                                  
-  # 2.3.0 is released, but we use a fork os use the associated commit directly
+  # 2.3.0 is released by Mark Gillard (upstream), but we read from a fork so use the associated commit directly
   GIT_TAG 4face4d5bf16326aca0da1fb33876dbca63b6e2f 
 )
 
